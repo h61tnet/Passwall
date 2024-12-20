@@ -38,7 +38,7 @@ opkg update
 
 ### Add Src ###
 
-wget -O passwall.pub https://netix.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub
+wget -O passwall.pub https://kumisystems.dl.sourceforge.net/project/openwrt-passwall-build/passwall.pub
 
 opkg-key add passwall.pub
 
@@ -48,7 +48,7 @@ read release arch << EOF
 $(. /etc/openwrt_release ; echo ${DISTRIB_RELEASE%.*} $DISTRIB_ARCH)
 EOF
 for feed in passwall_luci passwall_packages passwall2; do
-  echo "src/gz $feed https://netix.dl.sourceforge.net/project/openwrt-passwall-build/releases/packages-$release/$arch/$feed" >> /etc/opkg/customfeeds.conf
+  echo "src/gz $feed https://kumisystems.dl.sourceforge.net/project/openwrt-passwall-build/releases/packages-$release/$arch/$feed" >> /etc/opkg/customfeeds.conf
 done
 
 ### Install package ###
