@@ -95,7 +95,7 @@ echo "Installing Passwall 1 ..."
 
 sleep 2
 
-rm -f passwall.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/main/passwall.sh && chmod 777 passwall.sh && sh passwall.sh
+rm -f passwall.sh && wget https://raw.githubusercontent.com/h61tnet/Passwall/main/passwall.sh && chmod 777 passwall.sh && sh passwall.sh
 
 
 ;;
@@ -106,7 +106,7 @@ echo "Installing Passwall 2 ..."
 
 sleep 2
 
-rm -f passwall2x.sh && wget https://raw.githubusercontent.com/amirhosseinchoghaei/Passwall/main/passwall2x.sh && chmod 777 passwall2x.sh && sh passwall2x.sh
+rm -f passwall2x.sh && wget https://raw.githubusercontent.com/h61tnet/Passwall/main/passwall2x.sh && chmod 777 passwall2x.sh && sh passwall2x.sh
 
  
 ;;
